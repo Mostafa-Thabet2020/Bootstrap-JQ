@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap-jQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+</head>
+
+<body class="container">
+    <!-- <div class="row">
+        <div class="col-md-4 ms-auto">
+            <p>
+                Does that mean she is saying that these things don't matter, or does it mean that she is saying that she
+                is more
+                worried about things that would take a lot of effort or time than the things that don't
+            </p>
+        </div>
+        <div class="col-md-4 ms-auto">
+            <p>
+                <i>webmaster@homeostasis.org</i><br>
+                Dr. Roy Boody is the author of The Skeptic's Guide to Hypnosis and Mastering Hypnosis and editor of
+                Hypnosis and
+                Mindfulness: Tools for Healing, Healing Practice, and Healthy
+            </p>
+        </div>
+        <div class="col-md-4 ms-auto">At the very least, I don't think that she is going to be treating me any
+            differently or worse than she treated me before, so it's not like it's her fault.</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">At the very least, I don't think that she is going to be treating me any differently or
+            worse than she treated me before, so it's not like it's her fault.</div>
+
+    </div>
+
+    <button class="btn btn-outline-primary btn-lg">save</button>
+    <button class="btn btn-danger">delete</button>
+    <button class="btn btn-info text-white">details</button>
+    <button class="btn btn-primary">Show me </button>
+
+    <div style="margin: 10px;">
+        <label class="badge bg-info text-dark">username</label>
+        <input type="text" placeholder="ex.jone" class="form-control" required>
+        <div class="invalid-feedback">
+            Please choose a username.
+        </div>
+        <input type="submit" value="save" class="btn btn-lg btn-warning">
+    </div> -->
+    <form action="">
+        <div class="row">
+            <div class="col">
+                <label class="badge rounded-pill bg-info">Username</label>
+                <input type="text" placeholder="ex.jone" class="form-control" id="userNameTXT">
+            </div>
+            <div class="col">
+                <label class="badge rounded-pill bg-info">Password</label>
+                <input type="password" placeholder="P@ssw0rd" class="form-control" id="passwordTXT">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-2">
+                <input type="button" value="Login" class="btn btn-primary" onclick="Login()">
+            </div>
+            <div class="col-2">
+                <input type="button" value="Register" class="btn btn-success">
+            </div>
+            <div class="col-2">
+                <input type="button" value="Clear" class="btn btn-danger" onclick="clearInputs()">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <p class="text-success" style="display: none;" id="loginFeedback">login succeess</p>
+            </div>
+            <div class="col" style="display: none;" id="parg">
+                <p>
+                    <i>webmaster@homeostasis.org</i><br>
+                    Dr. Roy Boody is the author of The Skeptic's Guide to Hypnosis and Mastering Hypnosis and editor of
+                    Hypnosis and
+                    Mindfulness: Tools for Healing, Healing Practice, and Healthy
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
